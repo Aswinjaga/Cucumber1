@@ -5,3 +5,9 @@ When you enter credentials below
 | Admin | admin123|
 And click the login button
 And click the login button
+Scenario: Login OrangeHMR
+Given user you are in login page
+When you enter credentials below
+| Admin | admin123|
+And click the login button
+And click the login button

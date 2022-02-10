@@ -46,7 +46,11 @@ public class DatatableUsingHeader {
 		driver.findElement(By.id("btnLogin")).click();
 	    
 	}
-
+@When("^click  login button$")
+	public void click_login_button() throws Throwable {
+		driver.findElement(By.id("btnLogin")).click();
+	    
+	}
 
 
 }
